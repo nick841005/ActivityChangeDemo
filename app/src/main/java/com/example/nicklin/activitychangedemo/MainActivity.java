@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == CHECK && resultCode == RESULT) {
-            Toast.makeText(MainActivity.this, "Please enter account and password", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity.this, "Authenticate OK!", Toast.LENGTH_LONG).show();
         }
     }
 }
